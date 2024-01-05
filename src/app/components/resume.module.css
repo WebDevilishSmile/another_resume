@@ -3,6 +3,7 @@
   height: 60rem;
   background: url(/bg_7.jpg);
   background-size: cover;
+  background-position: top center;
 
   padding: 5rem 0;
 }

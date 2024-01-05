@@ -3,6 +3,7 @@
   height: 60rem;
   background: url(/bg_9.jpg);
   background-size: cover;
+  background-position: top right;
   padding: 6rem 3rem;
 
   box-shadow: 0px 0.25px 2px #999;

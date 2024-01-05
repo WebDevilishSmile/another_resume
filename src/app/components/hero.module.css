@@ -8,6 +8,7 @@
 
   background: url(/bg_3.jpg);
   background-size: cover;
+  background-position: top center;
 }
 
 .content_container {
