@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="225.40964mm"
+   height="244.18098mm"
+   viewBox="0 0 225.40964 244.18098"
+   version="1.1"
+   id="svg530"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="tee.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview532"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="407.03073"
+     inkscape:cy="484.14529"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs527" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.3372644,-11.048035)">
+    <text
+       xml:space="preserve"
+       style="font-size:348.583px;line-height:450.292px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, @wght=900';font-variation-settings:'wght' 900;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4.8;paint-order:markers stroke fill"
+       x="5.0422173"
+       y="255.15738"
+       id="text705"
+       transform="scale(1.0001111,0.99988888)"><tspan
+         sodipodi:role="line"
+         id="tspan703"
+         style="stroke-width:0.2"
+         x="5.0422173"
+         y="255.15738">T</tspan></text>
+  </g>
+</svg>
