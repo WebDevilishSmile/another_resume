@@ -105,13 +105,28 @@
 
 @media (min-width: 800px) and (max-width: 800px) {
 }
-@media (min-width: 0px) and (max-width: 799px) {
+@media (min-width: 500px) and (max-width: 799px) {
   .heading_primary {
     font-size: 2.4rem;
   }
 
   .heading_secondary {
     font-size: 1.2rem;
+  }
+
+  .btn_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media (min-width: 0px) and (max-width: 499px) {
+  .heading_primary {
+    font-size: 2rem;
+  }
+
+  .heading_secondary {
+    font-size: 1rem;
   }
 
   .btn_container {

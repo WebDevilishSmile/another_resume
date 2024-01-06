@@ -52,7 +52,7 @@ export default function Home() {
       <Hero homeRef={homeRef} />
       <SectionDivider />
       <About aboutRef={aboutRef} />
-      <Resume resumeRef={resumeRef} />
+      <Resume resumeRef={resumeRef} mediaQueries={mediaQueries} />
       <Portfolio portfolioRef={portfolioRef} />
       <Contact contactRef={contactRef} />
       <Footer />

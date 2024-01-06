@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import styles from './contact.module.css';
 import Link from 'next/link';
+
+import styles from './contact.module.css';
 
 export default function Contact({ contactRef }) {
   return (
