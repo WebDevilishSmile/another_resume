@@ -1,15 +1,19 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+
 import Image from 'next/image';
 
 import { useScrollTrigger } from '@mui/material';
 
 import styles from './header.module.css';
-import { useEffect, useState } from 'react';
+
 import { nearestIndex } from './ScrollHeader';
-import Link from 'next/link';
+
+import MobileMenu from './MobileMenu';
 
 export default function Header({ links, mediaQueries }) {
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
@@ -28,7 +32,7 @@ export default function Header({ links, mediaQueries }) {
     threshold: 300,
   });
 
-  const headerStyle = trigger ? styles.scrolled : null;
+  const headerStyle = trigger ? styles.scrolled : '';
 
   const renderedLinks = links.map((li, index) => {
     const navLinkStyle = activeIndex === index ? styles.active : null;
@@ -57,15 +61,13 @@ export default function Header({ links, mediaQueries }) {
       {mediaQueries.desktop || mediaQueries.laptop ? (
         <div className={styles.nav_links}>{renderedLinks}</div>
       ) : (
-        <Link href='/'>
-          <Image
-            className={styles.menu}
-            src='/icons/menu.svg'
-            width={50}
-            height={50}
-            alt='Menu Icon'
-          />
-        </Link>
+        <MobileMenu
+          activeIndex={activeIndex}
+          setActiveIndex={setActiveIndex}
+          mobileMenu={mobileMenu}
+          setMobileMenu={setMobileMenu}
+          links={links}
+        />
       )}
     </div>
   );

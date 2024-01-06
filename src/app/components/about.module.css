@@ -20,7 +20,7 @@
 .heading_primary::after {
   content: '';
   position: absolute;
-  width: 10rem;
+  width: 80%;
   bottom: 0;
   left: 0;
   height: 2px;

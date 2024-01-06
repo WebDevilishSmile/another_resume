@@ -28,7 +28,7 @@ export const nearestIndex = (
   } else {
     var nextNearest = ~~((startIndex + endIndex) / 2);
     var a = Math.abs(
-      sectionPositionArray[nextNearest].headerRef.current.offsetTop -
+      sectionPositionArray[nextNearest].headerRef.current?.offsetTop -
         currentPosition
     );
     var b = Math.abs(

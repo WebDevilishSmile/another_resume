@@ -1,0 +1,46 @@
+.menu_icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.open_menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+
+  background: aliceblue;
+}
+
+.mobile_link {
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.active {
+  color: red;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  height: 2px;
+  width: 75%;
+  background-image: linear-gradient(to left, aliceblue, rgb(4, 150, 255));
+  transition: width 0.5s ease;
+}

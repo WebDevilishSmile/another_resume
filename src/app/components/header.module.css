@@ -16,7 +16,7 @@
 
 .scrolled {
   height: 4rem;
-  box-shadow: 0px 3px 10px #e7e7e7;
+  box-shadow: 0px 1px 8px #e7e7e7;
   background-color: aliceblue;
 }
 
@@ -62,11 +62,6 @@
 
 .active {
   color: red;
-}
-
-.menu {
-  width: 2rem;
-  height: 2rem;
 }
 
 @media (max-width: 1200px) {

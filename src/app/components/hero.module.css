@@ -12,7 +12,7 @@
 }
 
 .content_container {
-  width: 65%;
+  width: 100%;
   height: 30rem;
 
   display: flex;
@@ -42,13 +42,15 @@
 }
 
 .heading_secondary {
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
 .btn_container {
   width: 75%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .learn_button,
@@ -99,4 +101,22 @@
   z-index: -1;
   transition: all 0.4s;
   background-color: rgb(4, 150, 255, 0.25);
+}
+
+@media (min-width: 800px) and (max-width: 800px) {
+}
+@media (min-width: 0px) and (max-width: 799px) {
+  .heading_primary {
+    font-size: 2.4rem;
+  }
+
+  .heading_secondary {
+    font-size: 1.2rem;
+  }
+
+  .btn_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
 }
