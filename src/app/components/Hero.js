@@ -11,7 +11,7 @@ export default function Hero({ homeRef }) {
             I <span className={styles.heading_highlight}>am</span> Tiago Davila
           </h1>
           <h3 className={styles.heading_secondary}>
-            web designer and web developer.
+            web designer and developer.
           </h3>
         </div>
 
