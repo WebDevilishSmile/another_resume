@@ -54,6 +54,15 @@ export default function Contact({ contactRef }) {
             alt='LinkedIn logo'
           />
         </Link>
+        <Link href='mailto: webdevilishsmile@gmail.com'>
+          <Image
+            className={styles.social_logos}
+            src='/icons/email.png'
+            width={200}
+            height={200}
+            alt='LinkedIn logo'
+          />
+        </Link>
       </div>
     </div>
   );
