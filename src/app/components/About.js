@@ -17,20 +17,19 @@ export default function About({ aboutRef }) {
         <p>
           <span className={styles.first_letter}>F</span>or the past few years, I
           have dedicated every spare moment I have to web development. I am
-          extremely hungry for an opportunity to grow in this industry that has
-          captivated my life. I am intelligent, analytical, and love to solve
-          puzzles. I am determined, curious, creative, and relentless. I am a
-          ridiculously fast learner, and I can learn on my own because I am
-          incredibly resourceful.
+          extremely hungry for opportunities to grow professionally and perfect
+          this craft. I am intelligent, analytical, and love to solve puzzles. I
+          am determined, curious, creative, and relentless.
         </p>
         <p>
-          I began learning Javascript as my first step, through the
-          recommendation of a close friend in the industry. I realized I wanted
-          a more complete understanding of web design and development, so I took
-          several courses on HTML, CSS, and advanced CSS. Then I went back and
-          completed the course on Javascript. Afterwards, I completed courses on
-          React, and NextJS. I have been developing web applications using
-          NextJS, with a React framework, and Material UI components.
+          I began learning Javascript as my first step towards becoming a great
+          web developer. I realized I wanted a more complete understanding of
+          web design and development, so I took several courses on HTML, CSS,
+          and advanced CSS. Then I went back and completed the course on
+          Javascript. Afterwards, I completed courses on React, and NextJS. I
+          have developed web applications using NextJS, with a React framework,
+          Material UI components, Supabase back-ends, REST APIs, and much
+          more...
         </p>
       </div>
     </div>
