@@ -8,7 +8,10 @@ export default function Contact({ contactRef }) {
     <div ref={contactRef} id='contact' className={styles.contact}>
       <h2 className='heading'>contact</h2>
       <div className={styles.social_container}>
-        <Link href='https://www.facebook.com' target='_blank'>
+        <Link
+          href='https://www.facebook.com/tiago.web.design.2024/'
+          target='_blank'
+        >
           <Image
             className={styles.social_logos}
             src='/icons/fb_icon.svg'
@@ -17,7 +20,7 @@ export default function Contact({ contactRef }) {
             alt='FaceBook logo'
           />
         </Link>
-        <Link href='https://www.github.com' target='_blank'>
+        <Link href='https://github.com/WebDevilishSmile' target='_blank'>
           <Image
             className={styles.social_logos}
             src='/icons/git_icon.svg'
@@ -26,7 +29,10 @@ export default function Contact({ contactRef }) {
             alt='GitHub logo'
           />
         </Link>
-        <Link href='https://www.instagram.com' target='_blank'>
+        <Link
+          href='https://www.instagram.com/webdevilishsmile/'
+          target='_blank'
+        >
           {' '}
           <Image
             className={styles.social_logos}
@@ -36,7 +42,10 @@ export default function Contact({ contactRef }) {
             alt='Instagram logo'
           />
         </Link>
-        <Link href='https://www.linkedin.com' target='_blank'>
+        <Link
+          href='https://www.linkedin.com/in/tiago-davila-461b6a298/'
+          target='_blank'
+        >
           <Image
             className={styles.social_logos}
             src='/icons/linked_icon.svg'
