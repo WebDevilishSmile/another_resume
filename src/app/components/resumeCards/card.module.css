@@ -19,7 +19,6 @@
   justify-content: center;
   align-content: center;
   padding: 1rem;
-  background: linear-gradient(to right, #0496ff, aliceblue, rgb(4, 150, 255));
 }
 
 .card_heading {
@@ -48,10 +47,16 @@
 }
 
 .school,
-.completion {
+.completion,
+.school_head {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
+}
+
+.school_head {
+  font-size: 0.8rem;
+  margin-bottom: 0;
 }
 
 .school {

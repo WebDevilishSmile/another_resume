@@ -13,6 +13,7 @@ export const cards = [
       'Learned to build reactive, performant, large scale, web applications.',
       `Learned about NextJS's cutting edge technology.`,
     ],
+    colors: { header: `#000000` },
   },
   {
     title: 'Modern React',
@@ -29,6 +30,7 @@ export const cards = [
       'Learned the fundamentals of Redux.',
       `JSX, npm, useState, useEffect, and much more.`,
     ],
+    colors: { header: '#0496ff' },
   },
   {
     title: 'The Complete JavaScript Course: From Zero to Expert',
@@ -45,6 +47,7 @@ export const cards = [
       'Learned modern ES6 concepts.',
       `Event loops, promises, async / await, AJAX calls, APIs, and much more.`,
     ],
+    colors: { header: '#ffff00' },
   },
   {
     title: 'Advanced CSS and Sass: Flexbox, Grid, Animations, and More',
@@ -62,6 +65,7 @@ export const cards = [
       'Advanced CSS animation with @keyframes',
       'Advanced responsive designs with media query',
     ],
+    colors: { header: '#cc6699' },
   },
   {
     title: 'Build Responsive Real-World Websites with HTML and CSS',
@@ -77,6 +81,7 @@ export const cards = [
       'Learned to design websites.',
       'How to plan, sketch, design, build, test, and optimize professional websites',
     ],
+    colors: { header: '#f06529' },
   },
   {
     title: 'Crash Course: Full Stack App in a Weekend',
@@ -91,9 +96,9 @@ export const cards = [
     completed: 'August 2022',
     details: [
       'Brief glimpse into the world of web design and web development.',
-      'Basic principles of HTML, CSS, and JavaScript.',
       'Basics of Backend development using Supabase',
-      'Basic glimpse into React',
+      'Basic glimpse into HTML, CSS, JavaScript and React',
     ],
+    colors: { header: '#9d4edd' },
   },
 ];

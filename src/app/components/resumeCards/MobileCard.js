@@ -16,7 +16,13 @@ export default function MobileCard() {
   const renderedCards = cards.map((card, index) => {
     return (
       <SwiperSlide key={index} className={styles.card}>
-        <div className={styles.card_header}>
+        <div
+          className={styles.card_header}
+          style={{
+            background: `linear-gradient( to bottom, ${card.colors.header}95, aliceblue)  `,
+            color: `#000`,
+          }}
+        >
           <h2 className={styles.card_heading}>{card.title}</h2>
         </div>
         <div className={styles.icons}>

@@ -17,7 +17,12 @@ export default function ResumeCard() {
   const renderedCards = cards.map((card, index) => {
     return (
       <SwiperSlide key={index} className={styles.card}>
-        <div className={styles.card_header}>
+        <div
+          className={styles.card_header}
+          style={{
+            background: `linear-gradient( to bottom, ${card.colors.header}95, aliceblue)  `,
+          }}
+        >
           <h2 className={styles.card_heading}>{card.title}</h2>
         </div>
         <div className={styles.icons}>
@@ -34,6 +39,10 @@ export default function ResumeCard() {
           })}
         </div>
         <div className={styles.card_content}>
+          <div className={styles.school_head}>
+            <p>school</p>
+            <p>instructor</p>
+          </div>
           <div className={styles.school}>
             <p>{card.school}</p>
             <p>{card.instructor}</p>
