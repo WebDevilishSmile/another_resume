@@ -39,6 +39,10 @@ export default function MobileCard() {
           })}
         </div>
         <div className={styles.card_content}>
+          <div className={styles.school_head}>
+            <p>school</p>
+            <p>instructor</p>
+          </div>
           <div className={styles.school}>
             <p>{card.school}</p>
             <p>{card.instructor}</p>

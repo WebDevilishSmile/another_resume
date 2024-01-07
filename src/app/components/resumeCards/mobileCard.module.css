@@ -47,7 +47,8 @@
 }
 
 .school,
-.completion {
+.completion,
+.school_head {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -55,9 +56,15 @@
   margin-bottom: 0.5rem;
 }
 
+.school_head {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
 .school {
   font-size: 1.2rem;
   font-weight: 500;
+  gap: 0.2rem;
 }
 
 .completion {
