@@ -24,15 +24,15 @@ export const portfolio = [
     website: 'https://bankist-davila.netlify.app/',
   },
   {
-    title: 'Forkify',
-    img: '/portfolio/forkify.png',
-    details: 'Forkify website',
-    website: 'https://forkify-tiagod.netlify.app/',
-  },
-  {
     title: 'Natours',
     img: '/portfolio/natours.png',
     details: 'Natours website',
     website: 'https://natours-davila.netlify.app/',
+  },
+  {
+    title: 'Forkify',
+    img: '/portfolio/forkify.png',
+    details: 'Forkify website',
+    website: 'https://forkify-tiagod.netlify.app/',
   },
 ];
