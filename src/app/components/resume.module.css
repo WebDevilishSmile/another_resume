@@ -18,3 +18,13 @@
 
   padding: 3rem;
 }
+
+.swipe_gif {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+}

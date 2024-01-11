@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { IconButton, Modal, Slide } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
 import styles from './mobile.module.css';
+
 import { nearestIndex } from './ScrollHeader';
 import { useEffect } from 'react';
 

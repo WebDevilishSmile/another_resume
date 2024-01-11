@@ -11,6 +11,7 @@ import styles from './mobileCard.module.css';
 import 'swiper/css';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
+import { useState } from 'react';
 
 export default function MobileCard() {
   const renderedCards = cards.map((card, index) => {

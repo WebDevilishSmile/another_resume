@@ -12,25 +12,14 @@ import { nearestIndex } from './ScrollHeader';
 
 import MobileMenu from './MobileMenu';
 
-export default function Header({ links, mediaQueries }) {
+export default function Header({
+  links,
+  mediaQueries,
+  activeIndex,
+  setActiveIndex,
+  trigger,
+}) {
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = (e) => {
-      let index = nearestIndex(window.scrollY, links, 0, links.length - 1);
-      setActiveIndex(index);
-    };
-    document.addEventListener('scroll', handleScroll);
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
-  }, [links]);
-
-  const trigger = useScrollTrigger({
-    disableHysteresis: true,
-    threshold: 300,
-  });
 
   const headerStyle = trigger ? styles.scrolled : '';
 
