@@ -8,10 +8,7 @@ export default function Contact({ contactRef }) {
     <div ref={contactRef} id='contact' className={styles.contact}>
       <h2 className='heading'>contact</h2>
       <div className={styles.social_container}>
-        <Link
-          href='https://www.facebook.com/tiago.web.design.2024/'
-          target='_blank'
-        >
+        <Link href='https://www.facebook.com/WebDevilishSmile' target='_blank'>
           <Image
             className={styles.social_logos}
             src='/icons/fb_icon.svg'
