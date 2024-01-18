@@ -1,5 +1,11 @@
 export const portfolio = [
   {
+    title: 'My Portfolio',
+    img: '/portfolio/myport2.png',
+    details: 'Tiago Portfolio Site',
+    website: 'https://bro-sure.vercel.app/',
+  },
+  {
     title: 'UPS SLICs',
     img: '/portfolio/ups.png',
     details: 'UPS SLICs website',
