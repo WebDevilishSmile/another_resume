@@ -40,6 +40,8 @@
   box-sizing: border-box;
   overflow: hidden;
   filter: grayscale(100%);
+
+  transition: all 0.4s ease;
 }
 
 .link {
@@ -49,7 +51,7 @@
   color: #000;
 
   cursor: pointer;
-  transition: width 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .img {
@@ -79,7 +81,7 @@
   margin-top: 3.5rem;
   font-size: 1.2rem;
   text-align: center;
-  transition: width 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .details::after {
