@@ -16,6 +16,7 @@ import Contact from '@/app/components/Contact';
 import SectionDivider from './components/SectionDivider';
 import Footer from './components/Footer';
 import theme from '@/utilities/theme';
+
 import { nearestIndex } from './components/ScrollHeader';
 
 export default function Home() {

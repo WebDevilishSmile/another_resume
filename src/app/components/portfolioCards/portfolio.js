@@ -7,7 +7,7 @@ export const portfolio = [
   },
   {
     title: 'SLICs 4.0',
-    img: '/portfolio/ups.png',
+    img: '/portfolio/slics.png',
     details: 'SLICs website',
     website: 'https://slics-beta.vercel.app/',
   },
