@@ -1,17 +1,17 @@
 export const cards = [
   {
-    title: 'NextJS',
+    title: 'The Ultimate React Course: React, NextJS, Redux and more',
     icons: [
       { title: 'NextJS', img: '/icons/nextjs.svg' },
       { title: 'React', img: '/icons/react.svg' },
     ],
     school: 'Udemy',
-    instructor: 'Ankita Kulkarni',
+    instructor: 'Jonas Schmedtmann',
     completed: 'May 2023',
     details: [
       'Create NextJS web applications.',
-      'Learned to build reactive, performant, large scale, web applications.',
       `Learned about NextJS's cutting edge technology.`,
+      `Advanced React concepts, conventions, and design patterns.`,
     ],
     colors: { header: `#000000` },
   },
