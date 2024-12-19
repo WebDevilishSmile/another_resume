@@ -6,6 +6,12 @@ export const portfolio = [
     website: 'https://bro-sure.vercel.app/',
   },
   {
+    title: 'SLICs 4.0',
+    img: '/portfolio/ups.png',
+    details: 'SLICs website',
+    website: 'https://slics-beta.vercel.app/',
+  },
+  {
     title: 'UPS SLICs',
     img: '/portfolio/ups.png',
     details: 'UPS SLICs website',
